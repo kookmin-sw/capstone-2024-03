@@ -196,11 +196,11 @@ def input_text():
         schema:
           id: input_text
           required:
-            - text
+            - input_text
             - task_id
             - time
           properties:
-            text:
+            input_text:
               type: string
               description: The text to be input.
             task_id:
